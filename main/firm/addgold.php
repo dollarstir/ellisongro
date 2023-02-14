@@ -66,40 +66,92 @@
 
 
 
-<form class="addadmin">
+<form class="addgold">
 <div class="form-group">
-<label for="exampleFormControlInput1"> Name</label>
-<input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="">
+<label for="exampleFormControlInput1"> Item</label>
+<input type="text" name="item" class="form-control" id="exampleFormControlInput1" placeholder="">
 
 </div>
 
 <div class="form-group">
-<label for="exampleFormControlInput1">Email</label>
-<input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+<label for="exampleFormControlInput1">Weight</label>
+<input type="email" name="weight" class="form-control" id="exampleFormControlInput1" placeholder="">
 </div>
 
 
 
 <div class="form-group">
-<label for="exampleFormControlInput1">Paasword</label>
-<input type="password" name="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+<label for="exampleFormControlInput1">Purity</label>
+<input type="text" name="purity" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Carat</label>
+<input type="text" name="carat" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Demurage Charge</label>
+<input type="text" name="charge" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Date Deposited</label>
+<input type="date" name="date_added" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Owner's Full Name</label>
+<input type="text" name="depositer" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Date of Birth</label>
+<input type="date" name="dob" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Country</label>
+<input type="text" name="country" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Nationality</label>
+<input type="text" name="nationality" class="form-control" id="exampleFormControlInput1" placeholder="">
 </div>
 
 
 
 
-<!-- <div class="form-group">
-    <select class="default_sel mb_30 w-100">
-<option data-display="Select">Nothing</option>
-<option value="1">Some option</option>
-<option value="2">Another option</option>
-<option value="3" disabled>A disabled option</option>
-<option value="4">Potato</option>
+<div class="form-group">
+    <select class="default_sel mb_30 w-100" name="gender">
+<option>Select Genger</option>
+
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+
 </select>
-</div> -->
-<div class="form-group">
-    <?php echo inputfile::basic('pic', 'Upload Profile pic', ''); ?>   
 </div>
+
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Occupation</label>
+<input type="text" name="occupation" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Address</label>
+<input type="text" name="address" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Next of Kin</label>
+<input type="text" name="next_kin" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+
 
 
 
