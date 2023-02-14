@@ -138,6 +138,10 @@ $router = new Router([
         return Viewer::view('main/firm/addgold.php', $context);
     }),
 
+    new Route('/golds', function ($context) {
+        return Viewer::view('main/firm/viewgolds.php', $context);
+    }),
+
     new Route('/attorney', function ($context) {
         return Viewer::view('main/attornies.php', $context);
     }),
