@@ -134,6 +134,10 @@ $router = new Router([
         return Viewer::view('main/firm/vadmin.php', $context);
     }),
 
+    new Route('/newgold', function ($context) {
+        return Viewer::view('main/firm/addgold.php', $context);
+    }),
+
     new Route('/attorney', function ($context) {
         return Viewer::view('main/attornies.php', $context);
     }),
