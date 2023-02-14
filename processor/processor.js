@@ -184,6 +184,27 @@ $('.sd').submit(function(e){
   $.ajax(staff);
 });
 
+
+// add gold
+
+$('.addgold').submit(function(e){
+
+  e.preventDefault();
+ 
+  var staff = {
+      url: 'processor/processor.php?action=addgold',
+      type: 'post',
+      data: new FormData(this),
+      cache: false,
+      contentType: false,
+      processData: false,
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
 // logout
 $('.logi').click(function(e){
 
