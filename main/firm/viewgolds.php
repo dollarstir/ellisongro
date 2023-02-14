@@ -88,7 +88,7 @@ involve('functions');
 <th scope="col">Vault No</th>
                                             <th scope="col">Item</th>
                                             <th scope="col">Carat</th>
-                                            <th scope="col">Weight/th>
+                                            <th scope="col">Weight</th>
                                             <th scope="col">Purity</th>
                                             <th scope="col">Charge</th>
                                             <th scope="col">Date </th>
