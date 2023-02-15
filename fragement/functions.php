@@ -98,3 +98,16 @@ function deletegold($gold_id)
         echo 'Failed to delete gold';
     }
 }
+
+function vaultlogin($vault)
+{
+    if (authenticate('gold', [['vaultnumber', '=', $vault]]) == 'success') {
+        if (loginauth('gold', 'vaultuser', [['vaultnumber', '=', $vault]]) == 'success') {
+            echo 'loginvault';
+        } else {
+            echo 'failed to open vault';
+        }
+    } else {
+        echo 'Incorrect Vault Number';
+    }
+}

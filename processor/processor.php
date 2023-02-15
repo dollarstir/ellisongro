@@ -160,6 +160,11 @@ if (isset($_GET['action'])) {
                     // code...
                 break;
 
+            case 'vault':
+                extract($_POST);
+                vaultlogin($vault);
+                break;
+
         default:
 
         break;
