@@ -66,7 +66,7 @@ $router = new Router([
         return Viewer::view('main/firm/vault.php', $context);
     }),
 
-    new Route('/logoutvalt', function ($context) {
+    new Route('/logoutvault', function ($context) {
         return Viewer::view('main/firm/logoutvault.php', $context);
     }),
 
