@@ -51,12 +51,12 @@ involve('functions');
 
 
 
-    <?php involve('adminnav.php'); ?>
+    
 
 
     <section class="main_content dashboard_part">
 
-        <?php involve('admintop.php'); ?>
+       
 
         <div class="main_content_iner ">
             <div class="container-fluid plr_30 body_white_bg pt_30">
