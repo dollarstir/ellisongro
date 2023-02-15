@@ -81,6 +81,12 @@
 <h3> <span class="counter"><?php echo countall('supper'); ?></span> </h3>
 <!-- <p>Saved 65%</p> -->
 </div>
+
+<div class="single_quick_activity">
+<h4>Gold </h4>
+<h3><span class="counter"><?php echo countall('gold'); ?></span> </h3>
+<!-- <p>Saved 25%</p> -->
+</div>
 </div>
 </div>
 </div>
