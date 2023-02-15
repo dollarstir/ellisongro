@@ -32,6 +32,20 @@ echo '<nav class="sidebar">
 </li>
 
 
+
+<li class="">
+    <a class="has-arrow" href="#" aria-expanded="false">
+    <img src="main/firm/img/menu-icon/2.svg" alt="">
+    <span>Gold Vault</span>
+    </a>
+    <ul>
+    <li><a href="newgold">Add Gold</a></li>
+    <li><a href="golds">View List</a></li>
+   
+    </ul>
+</li>
+
+
 <li class="">
     <a class="has-arrow" href="#" aria-expanded="false">
     <img src="main/firm/img/menu-icon/2.svg" alt="">
