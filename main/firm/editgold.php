@@ -124,7 +124,7 @@ involve('functions');
 
 <div class="form-group">
 <label for="exampleFormControlInput1">Country</label>
-<input type="text" name="country" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php gdetail($myid, 'nation'); ?>">
+<input type="text" name="nation" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php gdetail($myid, 'nation'); ?>">
 </div>
 
 <div class="form-group">

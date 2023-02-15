@@ -115,7 +115,7 @@
 
 <div class="form-group">
 <label for="exampleFormControlInput1">Country</label>
-<input type="text" name="country" class="form-control" id="exampleFormControlInput1" placeholder="">
+<input type="text" name="nation" class="form-control" id="exampleFormControlInput1" placeholder="">
 </div>
 
 <div class="form-group">
