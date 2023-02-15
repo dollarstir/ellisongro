@@ -84,7 +84,7 @@ involve('functions');
 
 <div class="form-group">
 <label for="exampleFormControlInput1">Weight</label>
-<input type="email" name="weight" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php gdetail($myid, 'weight'); ?>">
+<input type="text" name="weight" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php gdetail($myid, 'weight'); ?>">
 </div>
 
 

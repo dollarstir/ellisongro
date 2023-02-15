@@ -75,7 +75,7 @@
 
 <div class="form-group">
 <label for="exampleFormControlInput1">Weight</label>
-<input type="email" name="weight" class="form-control" id="exampleFormControlInput1" placeholder="">
+<input type="text" name="weight" class="form-control" id="exampleFormControlInput1" placeholder="">
 </div>
 
 
