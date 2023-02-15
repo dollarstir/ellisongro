@@ -58,6 +58,14 @@ $router = new Router([
         return Viewer::view('main/firm/newtest.php', $context);
     }),
 
+    new Route('/vaultauthenticator', function ($context) {
+        return Viewer::view('main/firm/login2.php', $context);
+    }),
+
+    new Route('/vault', function ($context) {
+        return Viewer::view('main/firm/vault.php', $context);
+    }),
+
     new Route('/addslider', function ($context) {
         return Viewer::view('main/firm/slidera.php', $context);
     }),
