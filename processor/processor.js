@@ -205,6 +205,44 @@ $('.addgold').submit(function(e){
   $.ajax(staff);
 });
 
+// edit gold 
+
+$('.editgold').submit(function(e){
+
+  e.preventDefault();
+ 
+  var staff = {
+      url: 'processor/processor.php?action=editgold',
+      type: 'post',
+      data: new FormData(this),
+      cache: false,
+      contentType: false,
+      processData: false,
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
+// delete gold
+
+$(document).on('click','.deleteg',function(e){
+
+  e.preventDefault();
+  
+  var id = $(this).attr('id');
+  var staff = {
+      url: 'processor/processor.php?action=deletegold',
+      type: 'post',
+      data: {"gold_id": id},
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
 // logout
 $('.logi').click(function(e){
 

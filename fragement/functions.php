@@ -49,3 +49,52 @@ function showgold()
     </tr>';
     }
 }
+
+// gold details
+// gold details
+function gdetail($id, $data)
+{
+    $dd = customfetch('gold', [['gold_id', '=', $id]]);
+    echo $dd[0][$data];
+}
+
+// edit gold function
+
+function editgold($gold_id, $depositer, $dob, $nation, $nationality, $gender, $occupation, $address, $next_kin, $item, $weight, $purity, $carat, $charge, $date_added)
+{
+    if (empty(trim($item))) {
+        echo 'please enter a item name';
+    } else {
+        $record = [
+            'depositer' => $depositer,
+            'dob' => $dob,
+            'nation' => $nation,
+            'nationality' => $nationality,
+            'gender' => $gender,
+            'occupation' => $occupation,
+            'address' => $address,
+            'next_kin' => $next_kin,
+            'item' => $item,
+            'weight' => $weight,
+            'purity' => $purity,
+            'carat' => $carat,
+            'charge' => $charge,
+            'date_added' => $date_added,
+             ];
+
+        if (update('gold', $record, ['gold_id' => $gold_id]) == 'success') {
+            echo 'Updated Successfully';
+        } else {
+            echo 'Failed to edit gold';
+        }
+    }
+}
+
+function deletegold($gold_id)
+{
+    if (delete('gold', [['gold_id', '=', $gold_id]]) == 'success') {
+        echo 'Deleted Successfully';
+    } else {
+        echo 'Failed to delete gold';
+    }
+}

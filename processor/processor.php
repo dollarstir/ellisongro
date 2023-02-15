@@ -149,6 +149,17 @@ if (isset($_GET['action'])) {
                 addgold($depositer, $dob, $nation, $nationality, $gender, $occupation, $address, $next_kin, $item, $weight, $purity, $carat, $charge, $date_added);
                 break;
 
+            case 'editgold':
+                extract($_POST);
+                editgold($gold_id, $depositer, $dob, $nation, $nationality, $gender, $occupation, $address, $next_kin, $item, $weight, $purity, $carat, $charge, $date_added);
+                break;
+
+            case 'deletegold':
+                extract($_POST);
+                deletegold($gold_id);
+                    // code...
+                break;
+
         default:
 
         break;
