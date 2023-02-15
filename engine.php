@@ -66,6 +66,10 @@ $router = new Router([
         return Viewer::view('main/firm/vault.php', $context);
     }),
 
+    new Route('/logoutvalt', function ($context) {
+        return Viewer::view('main/firm/logoutvault.php', $context);
+    }),
+
     new Route('/addslider', function ($context) {
         return Viewer::view('main/firm/slidera.php', $context);
     }),
